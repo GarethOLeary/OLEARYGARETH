@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.countrypages.Page6"
+             Title="Hungary">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Cyan">
+            <Image Source="hungary.png" WidthRequest="100" HeightRequest="200"/>
+            <Label Text="City - Budapest" FontSize="20" TextColor="White"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Stadium - Puskas Arena" FontSize="20" TextColor="White"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Capacity - 56 000" FontSize="20" TextColor="White"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Matches - Group Stage and round of 16" FontSize="20" TextColor="White"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Previous Page" Clicked="Button_Clicked"
+                BackgroundColor="Gray" HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>
+
+            <Button Text="Home Page" Clicked="Button_Clicked_1"
+                BackgroundColor="Gray" HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

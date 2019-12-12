@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.Predictions"
+             Title="Predictions">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Cyan">
+            <Label Text="Give your Prediction for three Matches" FontSize="20" TextColor="Black"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Fixture 1 - England vs Croatia" FontSize="15" TextColor="Black"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="Score" PlaceholderColor="Olive" Completed="Entry_Completed" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button Text="Save" Clicked="Button_Clicked"
+                BackgroundColor="Gray" 
+           VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+
+            <Label Text="Fixture 2 - Belgium vs Russia" FontSize="15" TextColor="Black"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="Score" PlaceholderColor="Olive" Completed="Entry_Completed" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button Text="Save" Clicked="Button_Clicked"
+                BackgroundColor="Gray" 
+           VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+
+            <Label Text="Fixture 3 - Wales vs Switzerland" FontSize="15" TextColor="Black"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="Score" PlaceholderColor="Olive" Completed="Entry_Completed" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button Text="Save" Clicked="Button_Clicked"
+                BackgroundColor="Gray" 
+           VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+
+            <Button Text="Home Page" Clicked="Button_Clicked_1"
+                BackgroundColor="Gray" HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

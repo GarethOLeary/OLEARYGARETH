@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyApp"
+             x:Class="MyApp.MainPage"
+             Title="Euro 2020 Information App">
+
+    <StackLayout BackgroundColor="Cyan">
+        
+
+        <Image Source="UEFA_Euro_2020_Logo.svg.png" WidthRequest="100" HeightRequest="200"/>
+
+        <!-- Place new controls here -->
+        <Label Text="For the first time ever , the European soccer championships will be held across 12 different countries around Europe." 
+               TextColor="White" Font="25"
+           VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+            />
+        <Label Text="This is an app with all the information you need about where and when the matches will take place."
+           TextColor="White" Font="25"
+           VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+            />
+        <Label Text="Don't miss out on what Stadiums are hosting the games and what round of fixtures each city has."
+           TextColor="White" Font="25"
+           VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+            />
+        <Button Text="List of host nations that are cities!" Clicked="Button_Clicked"
+                BackgroundColor="Gray" HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>
+
+        <Button Text="Predictions for three fixtures of Euro 2020!" Clicked="Button_Clicked_1"
+                BackgroundColor="Gray" HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>
+
+
+    </StackLayout>
+
+</ContentPage>
